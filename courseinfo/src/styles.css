@@ -1,0 +1,14 @@
+body {
+    margin: 10;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+.carta {
+display: flex;
+width: 25%;
+flex-direction: column;
+text-align: center;
+border: 2px dotted darkgray;
+}

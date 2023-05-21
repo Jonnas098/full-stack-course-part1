@@ -1,0 +1,31 @@
+body {
+  margin: 1;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.colums{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.firstPart{
+  width: 50%;
+  justify-content: center;
+}
+
+.secondPart{
+  width: 50%;
+}
